@@ -56,19 +56,38 @@
       <!--**********************************
             Nav header start
         ***********************************-->
-      <div class="nav-header">
-        <div class="brand-logo">
-          <a href="index.html">
-            <b class="logo-abbr"><img src="images/logo.png" alt="" /> </b>
-            <span class="logo-compact"
-              ><img src="./images/logo-compact.png" alt=""
-            /></span>
-            <span class="brand-title">
-              <img src="images/logo-text.png" alt="" />
-            </span>
-          </a>
+        <div class="nav-header">
+          <div class="brand-logo">
+            <a href="#">
+              <span class="logo-abbr"
+                ><img src="images/logo.svg" alt="" width="35" />
+              </span>
+              <span class="logo-compact">
+                <img src="images/logo.svg" alt="" width="35" />
+              </span>
+              <span class="brand-title">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="images/logo.svg" alt="" width="35" />
+                    </div>
+                    <div class="col-">
+                      <span
+                        style="
+                          font-size: 13px;
+                          color: whitesmoke;
+                          font-family: cursive;
+                        "
+                      >
+                        <b>NextGenWheelchair</b>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </a>
+          </div>
         </div>
-      </div>
       <!--**********************************
             Nav header end
         ***********************************-->
@@ -76,130 +95,139 @@
       <!--**********************************
             Header start
         ***********************************-->
-      <div class="header">
-        <div class="header-content clearfix">
-          <div class="nav-control">
-            <div class="hamburger">
-              <span class="toggle-icon"><i class="icon-menu"></i></span>
-            </div>
-          </div>
-          <!-- <div class="header-left">
-            <div class="input-group icons">
-              <div class="input-group-prepend">
-                <span
-                  class="input-group-text bg-transparent border-0 pr-2 pr-sm-3"
-                  id="basic-addon1"
-                  ><i class="mdi mdi-magnify"></i
-                ></span>
-              </div>
-              <input
-                type="search"
-                class="form-control"
-                placeholder="Search Dashboard"
-                aria-label="Search Dashboard"
-              />
-              <div class="drop-down animated flipInX d-md-none">
-                <form action="#">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Search"
-                  />
-                </form>
+        <div class="header">
+          <div class="header-content clearfix">
+            
+            <div class="nav-control">
+              <div class="hamburger">
+                <span class="toggle-icon"><i class="icon-menu"></i></span>
               </div>
             </div>
-          </div> -->
-          <div class="header-right">
-            <ul class="clearfix">
-              <li class="icons">
-                <a>
-                  <!-- <i class="mdi mdi-email-outline"></i> -->
-                  <img
-                    src="images/battery-full.png"
-                    alt=""
-                    style="height: 30px"
-                  />
-                  <!-- <span class="badge badge-pill gradient-1">3</span> -->
-                </a>
-              </li>
-              <li class="icons dropdown">
-                <a>
-                  <!-- <i class="mdi mdi-bell-outline"></i> -->
-                  <img
-                    src="images/attention-full.png"
-                    alt=""
-                    style="height: 40px"
-                  />
-                </a>
-              </li>
-              <!-- <li class="icons dropdown d-none d-md-flex">
-                <a
-                  href="javascript:void(0)"
-                  class="log-user"
-                  data-toggle="dropdown"
-                >
-                  <span>English</span>
-                  <i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>
-                </a>
-                <div
-                  class="drop-down dropdown-language animated fadeIn dropdown-menu"
-                >
-                  <div class="dropdown-content-body">
-                    <ul>
-                      <li><a href="javascript:void()">English</a></li>
-                      <li><a href="javascript:void()">Dutch</a></li>
-                    </ul>
+            <div class="header-right">
+              <ul class="clearfix">
+                <li class="icons">
+                  <a>
+                    <img
+                      src="images/battery-full.png"
+                      alt=""
+                      style="height: 30px"
+                    />
+                  </a>
+                </li>
+                <li class="icons dropdown">
+                  <a>
+                    <img
+                      src="images/attention-full.png"
+                      alt=""
+                      style="height: 40px"
+                    />
+                  </a>
+                </li>
+                <li class="icons dropdown">
+                  <a href="javascript:void(0)" data-toggle="dropdown">
+                    <i class="mdi mdi-bell-outline"></i>
+                    <span class="badge badge-pill gradient-2 badge-primary"
+                      >3</span
+                    >
+                  </a>
+                  <div
+                    class="drop-down animated fadeIn dropdown-menu dropdown-notfication"
+                  >
+                    <div
+                      class="dropdown-content-heading d-flex justify-content-between"
+                    >
+                      <span class="">2 New Notifications</span>
+                    </div>
+                    <div class="dropdown-content-body">
+                      <ul>
+                        <li>
+                          <a href="javascript:void()">
+                            <span class="mr-3 avatar-icon bg-success-lighten-2"
+                              ><i class="icon-present"></i
+                            ></span>
+                            <div class="notification-content">
+                              <h6 class="notification-heading">
+                                Events near you
+                              </h6>
+                              <span class="notification-text"
+                                >Within next 5 days</span
+                              >
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void()">
+                            <span class="mr-3 avatar-icon bg-danger-lighten-2"
+                              ><i class="icon-present"></i
+                            ></span>
+                            <div class="notification-content">
+                              <h6 class="notification-heading">Event Started</h6>
+                              <span class="notification-text">One hour ago</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void()">
+                            <span class="mr-3 avatar-icon bg-success-lighten-2"
+                              ><i class="icon-present"></i
+                            ></span>
+                            <div class="notification-content">
+                              <h6 class="notification-heading">
+                                Event Ended Successfully
+                              </h6>
+                              <span class="notification-text">One hour ago</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:void()">
+                            <span class="mr-3 avatar-icon bg-danger-lighten-2"
+                              ><i class="icon-present"></i
+                            ></span>
+                            <div class="notification-content">
+                              <h6 class="notification-heading">Events to Join</h6>
+                              <span class="notification-text"
+                                >After two days</span
+                              >
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-              </li> -->
-
-              <li class="icons dropdown">
-                <div
-                  class="user-img c-pointer position-relative"
-                  data-toggle="dropdown"
-                >
-                  <!-- <span class="activity active"></span> -->
-                  <span class=""></span>
-                  <img src="images/user/1.png" height="40" width="40" alt="" />
-                </div>
-                <div
-                  class="drop-down dropdown-profile animated fadeIn dropdown-menu"
-                >
-                  <div class="dropdown-content-body">
-                    <ul>
-                      <li>
-                        <a href="app-profile.html"
-                          ><i class="icon-user"></i> <span>Profile</span></a
-                        >
-                      </li>
-                      <!-- <li>
-                        <a href="javascript:void()">
-                          <i class="icon-envelope-open"></i> <span>Inbox</span>
-                          <div class="badge gradient-3 badge-pill gradient-1">
-                            3
-                          </div>
-                        </a>
-                      </li>
-
-                      <hr class="my-2" />
-                      <li>
-                        <a href="page-lock.html"
-                          ><i class="icon-lock"></i> <span>Lock Screen</span></a
-                        >
-                      </li> -->
-                      <li>
-                        <a href="page-login.html"
-                          ><i class="icon-key"></i> <span>Logout</span></a
-                        >
-                      </li>
-                    </ul>
+                </li>
+  
+                <li class="icons dropdown">
+                  <div
+                    class="user-img c-pointer position-relative"
+                    data-toggle="dropdown"
+                  >
+                    <span class=""></span>
+                    <img src="images/user/1.png" height="40" width="40" alt="" />
                   </div>
-                </div>
-              </li>
-            </ul>
+                  <div
+                    class="drop-down dropdown-profile animated fadeIn dropdown-menu"
+                  >
+                    <div class="dropdown-content-body">
+                      <ul>
+                        <!-- <li>
+                          <a href="app-profile.html"
+                            ><i class="icon-user"></i> <span>Profile</span></a
+                          >
+                        </li> -->
+                        <li>
+                          <a href="page-login.html"
+                            ><i class="icon-key"></i> <span>Logout</span></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
       <!--**********************************
             Header end ti-comment-alt
         ***********************************-->
@@ -207,42 +235,42 @@
       <!--**********************************
             Sidebar start
         ***********************************-->
-      <div class="nk-sidebar">
-        <div class="nk-nav-scroll">
-          <ul class="metismenu" id="menu">
-            <!-- <li class="nav-label">Dashboard</li> -->
-            <li>
-              <a class="" href="system-status.html" aria-expanded="false">
-                <i class="icon-speedometer menu-icon"></i
-                ><span class="nav-text">System Information</span>
-              </a>
-            </li>
-            <li>
-              <a
-                class="has-arrow"
-                href="javascript:void()"
-                aria-expanded="false"
-              >
-                <!-- <i class="icon-globe-alt menu-icon"></i> -->
-                <i class="bi bi-dpad"></i>
-
-                <span class="nav-text">Controls</span>
-              </a>
-              <ul aria-expanded="false">
-                <li><a href="./control-eeg.html">EEG</a></li>
-                <li><a href="./control-voice.html">Voice</a></li>
-                <li><a href="./control-manual.html">Manual</a></li>
-              </ul>
-            </li>
-            <li>
-              <a class="" href="page-login.html" aria-expanded="false">
-                <i class="bi bi-box-arrow-left"></i>
-                <span class="nav-text">Sign Out</span>
-              </a>
-            </li>
-          </ul>
+        <div class="nk-sidebar">
+          <div class="nk-nav-scroll">
+            <ul class="metismenu" id="menu">
+              <!-- <li class="nav-label">Dashboard</li> -->
+              <li>
+                <a class="" href="system-status.html" aria-expanded="false">
+                  <i class="icon-speedometer menu-icon"></i
+                  ><span class="nav-text">System Information</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="has-arrow"
+                  href="javascript:void()"
+                  aria-expanded="false"
+                >
+                  <!-- <i class="icon-globe-alt menu-icon"></i> -->
+                  <i class="bi bi-dpad"></i>
+  
+                  <span class="nav-text">Controls</span>
+                </a>
+                <ul aria-expanded="false">
+                  <li><a href="./control-eeg.html" id="eeg">EEG</a></li>
+                  <li><a href="./control-voice.html" id="voice">Voice</a></li>
+                  <li><a href="./control-manual.html" id="manual">Manual</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="" href="page-login.html" aria-expanded="false">
+                  <i class="bi bi-box-arrow-left"></i>
+                  <span class="nav-text">Sign Out</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       <!--**********************************
             Sidebar end
         ***********************************-->
@@ -251,75 +279,30 @@
             Content body start
         ***********************************-->
       <div class="content-body">
-        <!-- #/ container -->
-        <div class="container-fluid mt-3">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-xs-12">
-              <div class="card card-widget">
-                <div class="card-body gradient-8">
-                  <div class="media">
-                    <span class="card-widget__icon"
-                      ><i class="bi bi-check"></i
-                    ></span>
-                    <div class="media-body">
-                      <h3 class="card-widget__title">EEG Module</h3>
-                      <!-- <h5 class="card-widget__subtitle">EEG Module</h5> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="clearfix">
 
-            <div class="col-lg-3 col-md-6 col-xs-12">
-              <div class="card card-widget">
-                <div class="card-body gradient-2">
-                  <div class="media">
-                    <span class="card-widget__icon"
-                      ><i class="bi bi-check"></i
-                    ></span>
-                    <div class="media-body">
-                      <h3 class="card-widget__title">
-                        Wheelchair Functionality
-                      </h3>
-                      <!-- <h5 class="card-widget__subtitle">Open Tickets</h5> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="row" style="padding-top: 30px">
+            <div class="col-lg-6 col-md-12">
+              <h3 style="margin-left: 25px">Control Method:</h3>
             </div>
+            <div
+              class="col-lg-6 col-md-12"
+              style="padding-top: 15px; padding-right: 40px"
+            >
+              <!-- Insert Modal -->
 
-            <div class="col-lg-3 col-md-6 col-xs-12">
-              <div class="card card-widget">
-                <div class="card-body gradient-2">
-                  <div class="media">
-                    <span class="card-widget__icon"
-                      ><i class="bi bi-check"></i
-                    ></span>
-                    <div class="media-body">
-                      <h3 class="card-widget__title">Voice Command</h3>
-                      <!-- <h5 class="card-widget__subtitle">Task Completed</h5> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-xs-12">
-              <div class="card card-widget">
-                <div class="card-body gradient-2">
-                  <div class="media">
-                    <span class="card-widget__icon"
-                      ><i class="bi bi-check"></i
-                    ></span>
-                    <div class="media-body">
-                      <h3 class="card-widget__title">Joystick Control</h3>
-                      <!-- <h5 class="card-widget__subtitle">Task Completed</h5> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <span class="float-right">
+                <h3>Joystick</h3>
+              </span>
+              <!-- <button type="button" class="insert btn btn-success float-right" data-toggle="modal"
+                                data-target="#exampleModal" onclick="window.location.href='add_member.php'">Add
+                                New</button> -->
             </div>
           </div>
+        </div>
+        <!-- #/ container -->
+        <div class="container-fluid mt-3">
+          
           <div class="row">
             <div class="col-lg-6">
               <div class="card">
